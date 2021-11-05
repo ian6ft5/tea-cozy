@@ -1,0 +1,148 @@
+html {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    scrollbar-width: thin;
+    
+}
+
+body {
+    margin-top: 3.136rem;
+}
+
+h2, h4, h5 {
+    opacity: 0.9;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3.136rem;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    background-color: black;
+}
+
+header img {
+    float: left;
+    height: 2.273rem;
+    padding: .432rem .455rem; 
+}
+
+header nav {
+    display: inline;
+    float: right;
+    flex-flow: row nowrap;
+    width: 40%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header li {
+    text-decoration: underline;
+}
+
+main {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner {
+    background-image: url("../images/img-mission-background.webp");
+    width: 54.545rem;
+    background-position: cover;
+    height: 31.818rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+}
+
+#month {
+    width: 45.455rem;
+    padding: 1rem 0;
+}
+
+.tiles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-container {
+    width: 13.636rem;
+    height: 11.364rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+#month h4 {
+    margin: .5rem 0;
+}
+
+#locations {
+    width: 54.545rem;
+    background-image: url("../images/img-locations-background.webp");
+    background-position: cover;
+    height: 22.727rem;
+}
+
+#locations .content {
+    background-color: transparent;
+}
+
+#locations .tiles {
+    justify-content: space-evenly;
+}
+
+.location-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    background-color: black;
+    width: 13.636rem;
+}
+
+#contact {
+    height: 9.091rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+#contact h2, #contact h5 {
+    margin: 0;
+}
+
+footer {
+    text-align: left;
+    padding: 0 1rem;
+}
